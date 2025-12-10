@@ -26,8 +26,13 @@ print(list)#shallow copy garnuhos list ko
 
 new   =  [3,4,5]
 new1 = [4,5,5]
-newlist =new.extend(new1)
+newlist =new.extend(new1) # yesle 2 ta list lai single ma rakhxa
 print(newlist)
+
+
+new1   =  [3,4,5,5]
+print(new1.index(3))#index method le element hanera kati index ma xa element bhanxa
+
 '''
 
 
