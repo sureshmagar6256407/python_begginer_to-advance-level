@@ -23,7 +23,14 @@ print(list)
 
 list.copy()
 print(list)#shallow copy garnuhos list ko 
+
+new   =  [3,4,5]
+new1 = [4,5,5]
+newlist =new.extend(new1)
+print(newlist)
 '''
+
+
 
 
 
