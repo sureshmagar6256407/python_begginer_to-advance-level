@@ -1,4 +1,4 @@
-strude={
+'''strude={
     'name':'suresh pun',
     'subject':{
         'phy':93,
@@ -15,6 +15,16 @@ print
 print(strude.get('name2'))#4- retruns the key acoording to values like None
 # print(strude['name2'])#error
 
-nwupadate={'city':'ghorahi'}
+nwupadate={'city':'ghorahi'}#net key and value pani update garna milxa ra purano key ko value pani change garna milxa
 strude.update(nwupadate)
-print(strude)
+print(strude)'''
+
+# student   = {
+#     'name' :'suresh pun magar' ,
+#     'age' :20,
+#     'roolno' :12,
+#     'from' :'rukum(west)'
+# }
+# print(student.items())
+# print(student.update({'roolno':14,'now' :'ghorahi'}))
+# print(student)
