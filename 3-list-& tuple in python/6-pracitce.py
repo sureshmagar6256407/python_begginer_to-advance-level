@@ -138,3 +138,26 @@
 #     print(larger)
 # big()
 
+
+
+# list1   =  [2,3,1,-1,-3, -3,9] 
+# postive_number =  0 
+# negetive_number = 0 
+
+# for i  in list1 :
+#     if i >= 0  :
+#         postive_number += 1
+#     else:
+#         negetive_number += 1 
+# print(f'the total positve number is {postive_number}')
+# print(f'the negetive number is {negetive_number}')
+        
+
+# list1 = [3,4,5,5,6,7,8,2,59,3,30]
+# greter_value  = []
+
+# for i in list1 :
+#     if  i >= 5 :
+#         greter_value.append(i)
+# print(greter_value)
+
