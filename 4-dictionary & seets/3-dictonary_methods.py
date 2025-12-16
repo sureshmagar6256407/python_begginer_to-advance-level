@@ -19,6 +19,41 @@ nwupadate={'city':'ghorahi'}#net key and value pani update garna milxa ra purano
 strude.update(nwupadate)
 print(strude)'''
 
+student = {
+    'name' :'suresh pun magar' ,
+    'age' :20,
+    'from' :'rukum(west)'
+ }
+
+# student.setdefault('ghar' ,0)#returns the value of the specified key. if the key does not exis: insert the key, with specified value , if key exist it did'nt chang value 
+
+# student.update({'marks' :20})#updates the dictionary with the speicied key-values pairs
+
+
+# student.clear()#remove all the element from the dictionary
+
+# `new_Copy = student.copy()#returns a copy of the dictionary
+
+# keys  = ['name','age','sex']
+# new_dict = dict.fromkeys(keys)#returns a dictionary with the specified keys and values . ra split(jastai ho yo ) list,tuple,string,set lai dictionary banauxa
+# print(new_dict)
+
+# get = student.get('name')#returns the value of the specified key
+# print(get)
+
+# pop  =student.pop('name') romoves the element with the speciefied key
+# print(pop)
+# print(student)
+
+# student.popitem()#Removes the last inserted key_value pair
+# print(student)
+
+
+
+
+
+
+
 # student   = {
 #     'name' :'suresh pun magar' ,
 #     'age' :20,
