@@ -1,3 +1,43 @@
+# 🔥 DICTIONARY का सबैभन्दा IMPORTANT
+
+# ✅ get()
+# ✅ setdefault()
+# ✅ update()
+# ✅ fromkeys()
+# ✅ pop()
+# ✅ keys() / values() / items()
+# student= {
+#     'name' :'suresh pun ' ,
+#     'age' : 20,
+#     'from' :'rukum(west)',
+#     'now' :'ghorahi'
+# }
+
+# student.pop('age')
+# print(student)
+
+
+# print(student.get('age'))
+
+
+# list1 = ['city','rollno']
+# invetor = 0
+# new_dict  = dict.fromkeys(list1,invetor)
+# print(new_dict)
+
+# student.clear()
+# print(student)
+
+# new_Copy = student.copy()
+# print(new_Copy)
+
+
+# student.update({'name' :'tekam'})
+# print(student)
+
+# student.setdefault('study')
+# print(student)
+
 '''strude={
     'name':'suresh pun',
     'subject':{
@@ -19,11 +59,11 @@ nwupadate={'city':'ghorahi'}#net key and value pani update garna milxa ra purano
 strude.update(nwupadate)
 print(strude)'''
 
-student = {
-    'name' :'suresh pun magar' ,
-    'age' :20,
-    'from' :'rukum(west)'
- }
+# student = {
+#     'name' :'suresh pun magar' ,
+#     'age' :20,
+#     'from' :'rukum(west)'
+#  }
 
 # student.setdefault('ghar' ,0)#returns the value of the specified key. if the key does not exis: insert the key, with specified value , if key exist it did'nt chang value 
 
