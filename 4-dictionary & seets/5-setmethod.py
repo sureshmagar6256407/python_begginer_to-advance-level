@@ -1,3 +1,72 @@
+num1  = {1,2,3,4,5} 
+num2   = {3,4,5,6,1,2,7,8,9,10}
+# num3   = {1,2,3,4,5}
+# num4 = {6,7,8,9,10}
+
+# union() this is a most important
+# ✅ update()
+# ✅ intersection()
+# ✅ difference()
+# ✅ difference_update()
+# ✅ discard()
+# ✅ issubset() / issuperset()
+
+# num2.difference_update(num1)
+# print(num2)
+# num1.clear()
+# print(num1)
+
+# nwe = num1.copy()
+# print(nwe)
+
+# new_set  =num2.difference(num1)
+# print(new_set)
+
+# num1.add(6)
+# print(num1)
+
+# new_set = num1.intersection(num2)
+# print(new_set)
+
+# print(num1)
+# num1.intersection_update({3})
+# print(num1)
+
+# print(num1.isdisjoint(num4))
+
+
+# print(num1.issubset(num2))
+# print(num2.issubset(num1))
+
+# print(num1.issuperset(num2))
+# print(num1.issuperset(num3))
+
+# num1.discard(10)
+# print(num1)
+
+
+# num1.pop()
+# print(num1)
+
+# num1.remove(1)
+# print(num1)
+
+# new_set  = num1.symmetric_difference(num2)
+# print(new_set)
+
+# num1.update({11})
+# print(num1)
+
+# num1.symmetric_difference_update(num2)
+# print(num1)
+# num2.symmetric_difference_update(num1)
+# print(num2)
+
+# new_set  = num1.union(num2) 
+# print(new_set)
+
+
+
 '''collection = set ( )
 
 collection.add(1)#adds an element 
