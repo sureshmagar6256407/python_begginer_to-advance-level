@@ -101,10 +101,6 @@ print(f"""
     
 '''
 
-    
-  
-        
-
 
 
 
@@ -123,5 +119,37 @@ c1 = C()
 print(c1.car1)
 print(c1.car2)
 print(c1.car3)
-'''
 
+class Father :  
+    def __init__(self,fathername, fatherage):
+        self.fathername = fathername
+        self.fatherage  =fatherage
+
+    def fatherInfo(self) :  
+        return F"Fathername: {self.fathername} --  Fatherage : {self.fatherage} "
+
+class Mother :  
+    def __init__(self,mothername, motherage):
+        self.mothername  = mothername
+        self.motherage  =motherage
+
+    def motherInfo (self) : 
+        return F"Mothername : {self.mothername} -- Motherage : {self.motherage}"
+
+class Son (Father,Mother) : 
+    def __init__(self, fathername, fatherage,mothername, motherage,sonname, sonage):
+        Father.__init__(self,fathername, fatherage)  
+        Mother.__init__(self,mothername ,motherage)
+        self.sonname = sonname
+        self.sonage  =sonage
+
+    def sonInfo(self) :  
+        return f"Sonname : {self.sonname} -- Sonage : {self.sonage}"
+
+s1   = Son("tularampun",50, "mina pun",40, "suresh pun",20)
+print(f"""
+   Fatherinfo :  {s1.fatherInfo()} , 
+     Motherinof : {s1.motherInfo()}  ,  
+        soninfo :  {s1.sonInfo()}
+""")
+'''
