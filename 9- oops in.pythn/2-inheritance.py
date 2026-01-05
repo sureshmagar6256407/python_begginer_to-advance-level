@@ -17,6 +17,27 @@ car1 = ElectricCar('tesla')
 car2 = ElectricCar('nissan')
 
 print(car1.start())
+
+
+
+class Father :  
+    name_F  = "tularam"
+    age_F  = 30
+
+    def get_father_name(self) : 
+        return self.name_F 
+
+    def father_age (self) :
+        return self.age_F 
+
+     
+class Son (Father) :  
+    def __init__(self, name, age):
+        self.name   =    name 
+        self.age  =age    
+
+s1  =Son("suresh" , 30)   
+print(f"my name is {s1.name} and age is {s1.age} . also my father name is {s1.get_father_name()} and his age is {s1.father_age()}")
 '''
 
 
