@@ -63,7 +63,6 @@ class BabyDog(Dog):
 dog1 = BabyDog('tommy')
 print(dog1.eat())
 
-'''
 class Grand_Father  :  
     def __init__(self,grandfather,grandage):
         self.grandfather  = grandfather 
@@ -100,6 +99,7 @@ print(f"""
         grandfatherInfo : {s1.get_info()}
 """)
     
+'''
 
     
   
