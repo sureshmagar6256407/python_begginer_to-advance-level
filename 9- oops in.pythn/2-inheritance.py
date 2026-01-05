@@ -61,7 +61,52 @@ class BabyDog(Dog):
         self.type = type
 
 dog1 = BabyDog('tommy')
-print(dog1.eat())'''
+print(dog1.eat())
+
+'''
+class Grand_Father  :  
+    def __init__(self,grandfather,grandage):
+        self.grandfather  = grandfather 
+        self.grandage  = grandage   
+
+    def  get_info(self) :  
+        return  self.grandfather ,self.grandage
+    
+    
+class Father(Grand_Father) : 
+    def __init__(self, grandfather, grandage , fathername , fatherage):
+        super().__init__(grandfather, grandage) 
+        self.fathername  = fathername
+        self.faherage   =fatherage     
+ 
+    def getfatherinfo(self) :  
+        return  self.fathername , self.faherage
+    
+
+    
+class Son (Father) : 
+    def __init__(self, grandfather, grandage, fathername, fatherage , sonname , sonage):
+        super().__init__(grandfather, grandage, fathername, fatherage)
+        self.sonname = sonname
+        self.sonage  = sonage
+
+    def getson_info (self) :  
+        return  self.sonname    , self.sonage
+    
+s1  = Son(grandfather="kalibhang",grandage=75 ,fatherage= 50, fathername="tularampun" , sonname= "suresh pun ",sonage= 20)
+print(f"""
+    soninfo: {s1.getson_info()}
+      fatherInfo   : {s1.getfatherinfo()}
+        grandfatherInfo : {s1.get_info()}
+""")
+    
+
+    
+  
+        
+
+
+
 
 #multiple inheritance
 '''
