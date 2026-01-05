@@ -26,7 +26,7 @@ print(acc1.reset_pw())'''
 p1 = Person()
 print(p1.__name)'''
 
-
+"""
 class Person :
     __name = 'suresh' 
 
@@ -41,3 +41,24 @@ class Person :
 
 p1 = Person()
 print(p1.greet())
+"""
+
+class Account : 
+    def __init__(self,acc_no,acc_pass):
+        self.acc_no  = acc_no
+        self.__acc_pass =acc_pass
+
+    def reset_pw(self) : 
+        print(self.__acc_pass)
+
+    def __greet(self) :  
+        print("hello new world")
+
+    def greet_call(self) : 
+        self.__greet()
+
+
+acc1 = Account("122344","abcde")
+# print(acc1.acc_no)
+# print(acc1.reset_pw())
+print(acc1.greet_call())
